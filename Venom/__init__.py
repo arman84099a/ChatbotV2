@@ -22,10 +22,10 @@ mongo = MongoCli(config.MONGO_URL)
 db = mongo.Anonymous
 OWNER = config.OWNER_ID
 
-class VenomX(Client):
+class ArmanX(Client):
     def __init__(self):
         super().__init__(
-            name="VenomX",
+            name="ArmanX",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             lang_code="en",
@@ -45,4 +45,4 @@ class VenomX(Client):
         await super().stop()
 
 
-VenomX = VenomX()
+ArmanX = ArmanX()
