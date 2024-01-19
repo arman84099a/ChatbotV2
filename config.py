@@ -9,8 +9,8 @@ API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", "6306738739"))
 MONGO_URL = getenv("MONGO_URL", None)
-SUPPORT_GRP = getenv("SUPPORT_GRP", "Venom_Chatz")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "VenomOwners")
+SUPPORT_GRP = getenv("SUPPORT_GRP", "Dil_Se_Dil_Tak3")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "Dil_Ka_Ehsaas")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Venom_bolte_pubIic")
 
 # Random Start Images
